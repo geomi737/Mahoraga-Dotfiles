@@ -1,0 +1,31 @@
+* {
+    border-radius: 3px;
+}
+
+window {
+    font-size: 24px;
+    font-family: "Noto Sans Khmer Black";
+    background-color: #1F3D3D;
+    color: white;
+}
+
+#entry:selected{
+    background-color: #618373;
+    background: linear-gradient(90deg, #618373, #1F3D3D);
+}
+
+#entry{
+    padding: 0.25em;
+}
+
+#text:selected{
+    color: #050C12;
+}
+
+#input{
+    background-color: #1F3D3D;
+    color: white;
+    padding: 0.25em;
+    border: 2px solid white;
+
+}

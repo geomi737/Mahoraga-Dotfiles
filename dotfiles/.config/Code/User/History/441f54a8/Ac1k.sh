@@ -1,0 +1,1 @@
+openrgb --device 0 --color {{colors.inverse_primary.default.hex}}

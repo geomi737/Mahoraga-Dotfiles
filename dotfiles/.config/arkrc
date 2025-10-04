@@ -1,0 +1,10 @@
+[ExtractDialog]
+1920x1080 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/,$HOME/someone_s dotfiles/,$HOME/rtl8188eus/,$HOME/.local/share/themes/,$HOME/Загрузки/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled

@@ -1,0 +1,94 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, MesloLGSDZNerdFontMono;
+    font-size: 16px;
+}
+
+window#waybar {
+    background-color: rgb(31, 61, 61);
+    border: 3px solid rgb(5, 12, 18); 
+    color: rgb(255, 255, 255);
+    transition-property: background-color;
+    transition-duration: .5s;
+    border-radius: 8px
+}
+
+button {
+    /* Use box-shadow instead of border so the text isn't offset */
+    box-shadow: inset 0 -3px transparent;
+    /* Avoid rounded borders under each button name */
+    border: none;
+    border-radius: 0;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+    background: inherit;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused {
+    background-color: #64727D;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.urgent {
+    border: 3px solid rgb(205, 30, 30);
+}
+
+
+
+#wireplumber.muted {
+    border: 3px solid #f53c3c;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    border: 3px solid #eb4d4b;
+}
+
+#workspaces,
+#clock,
+#network,
+#wireplumber,
+#tray,
+#idle_inhibitor,
+#language,
+#group-power,
+#custom-awg{
+    border: 3px solid rgb(5, 12, 18);
+    background-color: rgb(97, 131, 115);
+    margin: 6px 4px; 
+    padding: 2px 12px; 
+    border-radius: 8px;
+}
+
+#group-power,
+#custom-quit,
+#custom-reboot,
+#custom-lock{
+    margin-right: 8px;
+}
+
+#custom-quit,
+#custom-reboot,
+#custom-lock{
+    font-size: 20px;
+}
+
+#wireplumber{
+    margin-left: 8px;
+}

@@ -1,0 +1,150 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "5a6328b6c792ae2aaf42313d7506cd4a99548c686daf77e1c5312765770bd33e",
+    "telemetry.devDeviceId": "b0504d93-c007-461a-afb3-df42db6b667a",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1759581582195"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/lesh/.config/waybar": "__default__profile__",
+            "file:///home/lesh/.config/kitty": "__default__profile__",
+            "file:///usr/share/themes/Yaru-Green-dark": "__default__profile__",
+            "file:///home/lesh/.themes/Yaru-Green-dark": "__default__profile__",
+            "file:///home/lesh/.config/hypr": "__default__profile__",
+            "file:///home/lesh/.config/wal/templates": "__default__profile__",
+            "file:///home/lesh/.config/wofi": "__default__profile__",
+            "file:///home/lesh/.config/gtk-4.0": "__default__profile__",
+            "file:///home/lesh/.config/gtk-3.0": "__default__profile__",
+            "file:///home/lesh/.config/matugen/templates": "__default__profile__",
+            "file:///home/lesh/.config/matugen": "__default__profile__",
+            "file:///home/lesh/.config/waypaper": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1759581004114": "__default__profile__",
+            "1759581582195": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/lesh/.config/Code/Backups/1759581582195",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 970,
+                "height": 516
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "b6f665e01121e8c133b70a65892239d0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "e693792ab588d3e1611aafc845da0f7c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "1e6328b5465acaa379e9602859cba26f": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                },
+                "16a368e16e46c3a26d294ea8b0fa0e27": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "c6837176d89f876d5d4c486cbf6950ba": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "64cae8ae7443217194de944b76d645ff": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "e255822d60be4b4ae03e5940729c7c51": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "cec82462475bc8817e22b43a6b5cb7d5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "ab85562ab630d45170478c01a481f475": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "7eba65701f43a6fc3b27fd27b5d82e4b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "4b5121da0c49a64e3992e386f7658374": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "b4acf46abb609e08449178b43d33c403": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "85b3da735bd340acd1303ac02795acf9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "229046786ba918f4c667890f55e855c1": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "8c1ee8b41287b7c499286c37f953651a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "03fc4e0637337dde3091d7fd4c45d8ac": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

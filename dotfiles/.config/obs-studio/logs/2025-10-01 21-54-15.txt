@@ -1,0 +1,170 @@
+21:54:15.858: [Safe Mode] Unclean shutdown detected!
+21:54:18.138: [Safe Mode] User elected to launch normally.
+21:54:18.138: Platform: Wayland
+21:54:18.138: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+21:54:18.138: CPU Speed: 3657.495MHz
+21:54:18.139: Physical Cores: 6, Logical Cores: 12
+21:54:18.139: Physical Memory: 32016MB Total, 23815MB Free
+21:54:18.139: Kernel Version: Linux 6.16.8-arch3-1
+21:54:18.139: Distribution: "Arch Linux" Unknown
+21:54:18.139: Desktop Environment: Hyprland (Hyprland)
+21:54:18.139: Session Type: wayland
+21:54:18.142: Current Date/Time: 2025-10-01, 21:54:18
+21:54:18.142: Browser Hardware Acceleration: true
+21:54:18.142: Qt Version: 6.9.2 (runtime), 6.9.2 (compiled)
+21:54:18.142: Portable mode: false
+21:54:18.159: OBS 31.1.2 (linux)
+21:54:18.159: ---------------------------------
+21:54:18.160: ---------------------------------
+21:54:18.160: audio settings reset:
+21:54:18.160: 	samples per sec: 48000
+21:54:18.160: 	speakers:        2
+21:54:18.160: 	max buffering:   960 milliseconds
+21:54:18.160: 	buffering type:  dynamically increasing
+21:54:18.161: ---------------------------------
+21:54:18.161: Initializing OpenGL...
+21:54:18.161: Using EGL/Wayland
+21:54:18.210: Initialized EGL 1.5
+21:54:18.267: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 4060/PCIe/SSE2
+21:54:18.267: OpenGL loaded successfully, version 3.3.0 NVIDIA 580.82.09, shading language 3.30 NVIDIA via Cg compiler
+21:54:18.291: ---------------------------------
+21:54:18.291: video settings reset:
+21:54:18.291: 	base resolution:   1920x1080
+21:54:18.291: 	output resolution: 1920x1080
+21:54:18.291: 	downscale filter:  Bicubic
+21:54:18.291: 	fps:               60/1
+21:54:18.291: 	format:            NV12
+21:54:18.291: 	YUV mode:          Rec. 709/Partial
+21:54:18.291: NV12 texture support enabled
+21:54:18.291: P010 texture support not available
+21:54:18.291: Audio monitoring device:
+21:54:18.291: 	name: По умолчанию
+21:54:18.291: 	id: default
+21:54:18.327: ---------------------------------
+21:54:18.336: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:54:18.346: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:54:18.355: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:54:18.355: Failed to initialize module 'decklink.so'
+21:54:18.362: os_dlopen(/usr/lib/obs-plugins/frontend-tools.so->/usr/lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+21:54:18.362: 
+21:54:18.362: Module '/usr/lib/obs-plugins/frontend-tools.so' not loaded
+21:54:18.412: [pipewire] Available capture sources:
+21:54:18.412: [pipewire]     - Monitor source
+21:54:18.412: [pipewire]     - Window source
+21:54:18.434: v4l2loopback not installed, virtual camera not registered
+21:54:18.480: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+21:54:18.748: VAAPI: API version 1.22
+21:54:18.803: FFmpeg VAAPI H264 encoding supported
+21:54:19.048: FFmpeg VAAPI AV1 encoding supported
+21:54:19.290: FFmpeg VAAPI HEVC encoding supported
+21:54:19.754: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: true
+21:54:20.558: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+21:54:20.558: 
+21:54:20.558: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+21:54:20.589: ---------------------------------
+21:54:20.589:   Loaded Modules:
+21:54:20.589:     text-freetype2.so
+21:54:20.589:     rtmp-services.so
+21:54:20.589:     obs-x264.so
+21:54:20.589:     obs-webrtc.so
+21:54:20.589:     obs-vst.so
+21:54:20.589:     obs-transitions.so
+21:54:20.589:     obs-qsv11.so
+21:54:20.589:     obs-outputs.so
+21:54:20.589:     obs-nvenc.so
+21:54:20.589:     obs-libfdk.so
+21:54:20.589:     obs-filters.so
+21:54:20.589:     obs-ffmpeg.so
+21:54:20.589:     linux-v4l2.so
+21:54:20.589:     linux-pulseaudio.so
+21:54:20.589:     linux-pipewire.so
+21:54:20.589:     linux-jack.so
+21:54:20.589:     linux-capture.so
+21:54:20.589:     linux-alsa.so
+21:54:20.589:     image-source.so
+21:54:20.589:     decklink-output-ui.so
+21:54:20.589:     decklink-captions.so
+21:54:20.589: ---------------------------------
+21:54:20.589: ---------------------------------
+21:54:20.589: Available Encoders:
+21:54:20.589:   Video Encoders:
+21:54:20.589: 	- ffmpeg_svt_av1 (SVT-AV1)
+21:54:20.589: 	- ffmpeg_aom_av1 (AOM AV1)
+21:54:20.589: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+21:54:20.589: 	- av1_ffmpeg_vaapi_tex (FFmpeg VAAPI AV1)
+21:54:20.589: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+21:54:20.589: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+21:54:20.589: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+21:54:20.589: 	- obs_nvenc_av1_tex (NVIDIA NVENC AV1)
+21:54:20.589: 	- obs_x264 (x264)
+21:54:20.589:   Audio Encoders:
+21:54:20.589: 	- ffmpeg_aac (FFmpeg AAC)
+21:54:20.589: 	- ffmpeg_opus (FFmpeg Opus)
+21:54:20.589: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 бит))
+21:54:20.589: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 бита))
+21:54:20.589: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 бита с пл. тчк.))
+21:54:20.589: 	- ffmpeg_alac (FFmpeg ALAC (24 бита))
+21:54:20.589: 	- ffmpeg_flac (FFmpeg FLAC (16 бит))
+21:54:20.589: 	- libfdk_aac (libfdk AAC)
+21:54:20.589: ==== Startup complete ===============================================
+21:54:20.615: All scene data cleared
+21:54:20.615: ------------------------------------------------
+21:54:20.619: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.8) 15.0.0'
+21:54:20.619: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:54:20.619: pulse-input: Started recording from 'alsa_output.pci-0000_0b_00.4.analog-stereo.monitor' (default)
+21:54:20.619: [Loaded global audio device]: 'Звук раб. стола'
+21:54:20.619: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.8) 15.0.0'
+21:54:20.620: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:54:20.620: pulse-input: Started recording from 'alsa_input.pci-0000_0b_00.4.analog-stereo'
+21:54:20.620: [Loaded global audio device]: 'Микр/доп'
+21:54:20.620:     - filter: 'Шумоподавление (Noise Suppression)' (noise_suppress_filter_v2)
+21:54:20.620: PipeWire initialized
+21:54:20.621: Switched to scene 'Сцена'
+21:54:20.621: ------------------------------------------------
+21:54:20.621: Loaded scenes:
+21:54:20.621: - scene 'Сцена':
+21:54:20.621:     - source: 'Захват экрана (PipeWire)' (pipewire-screen-capture-source)
+21:54:20.621: ------------------------------------------------
+21:54:20.674: [pipewire] Screencast session created
+21:54:20.741: [pipewire] Asking for monitor and window
+21:54:20.745: [pipewire] source selected, setting up screencast
+21:54:20.751: [pipewire] Server version: 1.4.8
+21:54:20.751: [pipewire] Library version: 1.4.8
+21:54:20.751: [pipewire] Header version: 1.4.7
+21:54:20.751: [pipewire] Created stream 0x5633bdc664f0
+21:54:20.751: [pipewire] Stream 0x5633bdc664f0 state: "connecting" (error: none)
+21:54:20.751: [pipewire] Playing stream 0x5633bdc664f0
+21:54:20.751: [pipewire] Stream 0x5633bdc664f0 state: "paused" (error: none)
+21:54:20.795: [pipewire] Negotiated format:
+21:54:20.795: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:54:20.795: [pipewire]     Modifier: 0x0
+21:54:20.795: [pipewire]     Size: 1920x1080
+21:54:20.795: [pipewire]     Framerate: 0/1
+21:54:20.797: [pipewire] Negotiated format:
+21:54:20.797: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:54:20.797: [pipewire]     Modifier: 0x300000000e08014
+21:54:20.797: [pipewire]     Size: 1920x1080
+21:54:20.797: [pipewire]     Framerate: 0/1
+21:54:20.797: [pipewire] Stream 0x5633bdc664f0 state: "streaming" (error: none)
+21:54:21.168: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Звук раб. стола)
+21:54:21.168: 
+21:54:21.232: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Микр/доп)
+21:54:21.232: 
+21:54:26.370: [obs-nvenc: 'simple_video_recording'] settings:
+21:54:26.370: 	codec:        H264
+21:54:26.370: 	rate_control: CQP
+21:54:26.370: 	cqp:          23
+21:54:26.370: 	keyint:       250
+21:54:26.370: 	preset:       p5
+21:54:26.370: 	tuning:       hq
+21:54:26.370: 	multipass:    qres
+21:54:26.370: 	profile:      high
+21:54:26.370: 	width:        1920
+21:54:26.370: 	height:       1080
+21:54:26.370: 	b-frames:     2
+21:54:26.370: 	b-ref-mode:   0
+21:54:26.370: 	lookahead:    true (8 frames)
+21:54:26.370: 	aq:           true
+21:54:26.370: 
+21:54:26.414: libfdk_aac encoder created
+21:54:26.414: libfdk_aac bitrate: 192, channels: 2

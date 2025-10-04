@@ -1,0 +1,1 @@
+openrgb --device 1 --color {{colors.primary.default.hex_stripped}}

@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "requesterUsername": "geomi737",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/67113995",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [],
+  "sessionId": "d0d60567-7972-4687-b81e-1156ab3c3eb5",
+  "creationDate": 1759237469562,
+  "isImported": false,
+  "lastMessageDate": 1759237469562
+}

@@ -1,0 +1,33 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[ImageView]
+ThumbnailSplitterSizes=473,135
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/2025-09-29 18-28-17.mkv
+File2[$e]=$HOME/Wallpapers/2.jpg
+File3[$e]=$HOME/Wallpapers/1.jpg
+File4[$e]=$HOME/Загрузки/1.jpg
+File5[$e]=$HOME/Загрузки/3.jpg
+File6[$e]=$HOME/Загрузки/4.png
+File7[$e]=$HOME/Загрузки/5.png
+File8[$e]=$HOME/Загрузки/6.jpg
+File9[$e]=$HOME/windows11wallpapers/img19.jpg
+Name1[$e]=2025-09-29 18-28-17.mkv
+Name2[$e]=2.jpg
+Name3[$e]=1.jpg
+Name4[$e]=1.jpg
+Name5[$e]=3.jpg
+Name6[$e]=4.png
+Name7[$e]=5.png
+Name8[$e]=6.jpg
+Name9[$e]=img19.jpg
+
+[SideBar]
+InformationSplitterSizes=218,257
+SideBarSplitterSizes=295,847

@@ -1,0 +1,20 @@
+window {
+    font-size: 24px;
+    font-family: "Noto Sans Khmer Black";
+    background-color: #1F3D3D;
+    color: white;
+}
+
+#entry:selected{
+    background-color: #618373;
+}
+
+#text:selected{
+    color: #050C12;
+}
+
+#input{
+    background-color: #1F3D3D;
+    color: white;
+    padding: 0.25em
+}

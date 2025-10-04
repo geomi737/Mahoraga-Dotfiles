@@ -1,0 +1,130 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20251001_152245
+====================================================================================================
+
+53    |Info:    [ResourceManager] Saving detector settings
+54    |Info:    [ResourceManager] Initializing HID interfaces: Success
+54    |Info:    ------------------------------------------------------
+54    |Info:    |               Start device detection               |
+54    |Info:    ------------------------------------------------------
+69    |Info:    ------------------------------------------------------
+69    |Info:    |             Detecting I2C interfaces               |
+69    |Info:    ------------------------------------------------------
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2882 Subsystem: 1462:5161
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 10DE:2882 Subsystem: 1462:5161
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1849:FFFF
+69    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1849:FFFF
+70    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2882 Subsystem: 1462:5161
+70    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:2882 Subsystem: 1462:5161
+70    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 10DE:2882 Subsystem: 1462:5161
+70    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1849:FFFF
+70    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2882 Subsystem: 1462:5161
+70    |Info:    ------------------------------------------------------
+70    |Info:    |               Detecting I2C devices                |
+70    |Info:    ------------------------------------------------------
+910   |Info:    ------------------------------------------------------
+910   |Info:    |            Detecting I2C DIMM modules              |
+910   |Info:    ------------------------------------------------------
+1703  |Info:    [ResourceManager] Detected occupied slot 1, bus 3, type DDR4
+2988  |Info:    [ResourceManager] Detected occupied slot 2, bus 3, type DDR4
+4787  |Info:    [ResourceManager] Detected occupied slot 3, bus 3, type DDR4
+7100  |Info:    [ResourceManager] Detected occupied slot 4, bus 3, type DDR4
+7701  |Info:    ------------------------------------------------------
+7701  |Info:    |               Detecting I2C PCI devices            |
+7701  |Info:    ------------------------------------------------------
+7702  |Info:    ------------------------------------------------------
+7702  |Info:    |               Detecting HID devices                |
+7702  |Info:    ------------------------------------------------------
+7753  |Info:    [KLM] Created new Tenkeyless ANSI QWERTY with 6 rows and 17 columns containing 87 keys
+7753  |Info:    [Red Square Keyrox TKL Classic] Registering RGB controller
+7753  |Info:    ------------------------------------------------------
+7753  |Info:    |            Detecting libusb HID devices            |
+7753  |Info:    ------------------------------------------------------
+7781  |Info:    ------------------------------------------------------
+7781  |Info:    |              Detecting other devices               |
+7781  |Info:    ------------------------------------------------------
+7806  |Info:    [ResourceManager] Calling Post-detection callbacks
+7806  |Info:    ------------------------------------------------------
+7806  |Info:    |                Detection completed                 |
+7806  |Info:    ------------------------------------------------------
+7806  |Dialog:  <h2>Some internal devices may not be detected:</h2><p>One or more I2C or SMBus interfaces failed to initialize.</p><p><b>RGB DRAM modules, some motherboards' onboard RGB lighting, and RGB Graphics Cards, will not be available in OpenRGB</b> without I2C or SMBus.</p><h4>How to fix this:</h4><p>On Linux, this is usually because the i2c-dev module is not loaded.</p><p>You must load the i2c-dev module along with the correct i2c driver for your motherboard. This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p><h3>If you are not using internal RGB on a desktop this message is not important to you.</h3>
+355995|Info:    [NetworkServer] Network connection thread started on port 6742
+369087|Info:    [NetworkServer] Network server started
+369262|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+369262|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+382687|Info:    [NetworkServer] Network server started
+382862|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+382862|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+418967|Info:    [NetworkServer] Network server started
+419143|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+419143|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+503208|Info:    [NetworkServer] Network server started
+503383|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+503383|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+513203|Info:    [NetworkServer] Network server started
+513380|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+513380|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+520195|Info:    [NetworkServer] Network server started
+520370|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+520370|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+528905|Info:    [NetworkServer] Network server started
+530080|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+530080|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1147802|Info:    [NetworkServer] Network server started
+1147982|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1147982|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1167293|Info:    [NetworkServer] Network server started
+1167468|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1167468|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1539165|Info:    [NetworkServer] Network server started
+1539340|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1539340|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1560422|Info:    [NetworkServer] Network server started
+1560597|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1560597|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1563504|Info:    [NetworkServer] Network server started
+1564679|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1564679|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1595603|Info:    [NetworkServer] Network server started
+1596778|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1596778|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1598523|Info:    [NetworkServer] Network server started
+1598701|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1598701|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1608979|Info:    [NetworkServer] Network server started
+1609154|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1609154|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1737202|Info:    [NetworkServer] Network server started
+1738378|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1738378|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1742871|Info:    [NetworkServer] Network server started
+1744051|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1744051|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1757586|Info:    [NetworkServer] Network server started
+1758766|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1758766|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1766493|Info:    [NetworkServer] Network server started
+1767673|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1767673|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1770226|Info:    [NetworkServer] Network server started
+1771406|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1771406|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1775193|Info:    [NetworkServer] Network server started
+1776373|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1776373|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1788402|Info:    [NetworkServer] Network server started
+1789578|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1789578|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1869231|Info:    [NetworkServer] Network server started
+1870411|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1870411|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1874205|Info:    [NetworkServer] Network server started
+1875380|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1875380|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1879076|Info:    [NetworkServer] Network server started
+1880251|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1880251|Info:    [NetworkServer] Closing server connection: 127.0.0.1
+1890794|Info:    [NetworkServer] Network server started
+1891974|ERROR:   [NetworkServer] recv_select failed receiving magic, closing listener
+1891974|Info:    [NetworkServer] Closing server connection: 127.0.0.1

@@ -1,0 +1,41 @@
+2025-10-04 10:41:23.982 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-04 10:41:23.982 [info] Using the Electron fetcher.
+2025-10-04 10:41:23.982 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-04 10:41:23.982 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-04 10:41:23.982 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-04 10:41:24.151 [info] Logged in as geomi737
+2025-10-04 10:41:24.575 [info] FetcherService: electron-fetch succeeded
+2025-10-04 10:41:24.662 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-10-04 10:41:24.664 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary,text-embedding-3-small-512. Deprecated: 
+2025-10-04 10:41:24.664 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2025-10-04 10:41:24.740 [info] FetcherService: electron-fetch failed with status: 403 
+2025-10-04 10:41:25.175 [info] FetcherService: node-fetch failed with status: 403 
+2025-10-04 10:41:25.664 [info] FetcherService: node-http failed with status: 403 Forbidden
+2025-10-04 10:41:25.664 [warning] Invalid copilot token: missing token: 403 
+2025-10-04 10:41:25.666 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:25260)
+    at tT.waitForChatEnabled (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:27701)
+    at tT.run (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:27585)
+    at P3.askToUpgradeAuthPermissions (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:27243): Failed to get copilot token
+2025-10-04 10:41:25.666 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2025-10-04 10:41:25.666 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-10-04 10:41:25.666 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:25260)
+    at V4._getAuthSession (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:618:4397)
+    at n (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:618:3843)
+    at V4._registerEmbeddings (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:618:4359)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 1)
+    at p1.waitForActivationBlockers (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:462:1233)
+    at /home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:462:1992
+    at rut (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:462:1860)
+    at _b.n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+    at _b.m (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+    at _b.l (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+2025-10-04 10:41:25.666 [info] activationBlocker from 'languageModelAccess' took for 1336ms

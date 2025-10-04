@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/lesh/Изображения/Обои/img23.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "{{colors.background.default.hex}}",
+        "foreground": "{{colors.on_surface.default.hex}}",
+        "cursor": "{{colors.primary.default.hex}}"
+    },
+    "colors": {
+        "color0": "#61969a",
+        "color1": "#00906E",
+        "color2": "#00C47D",
+        "color3": "#1D1C95",
+        "color4": "#036192",
+        "color5": "#412BCD",
+        "color6": "#019090",
+        "color7": "#8bd7dd",
+        "color8": "#61969a",
+        "color9": "#00906E",
+        "color10": "#00C47D",
+        "color11": "#1D1C95",
+        "color12": "#036192",
+        "color13": "#412BCD",
+        "color14": "#019090",
+        "color15": "#8bd7dd"
+    }
+}

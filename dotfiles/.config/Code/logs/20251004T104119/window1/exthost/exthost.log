@@ -1,0 +1,61 @@
+2025-10-04 10:41:20.894 [info] Extension host with pid 1928 started
+2025-10-04 10:41:20.894 [info] Skipping acquiring lock for /home/lesh/.config/Code/User/workspaceStorage/229046786ba918f4c667890f55e855c1.
+2025-10-04 10:41:21.046 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-04 10:41:21.074 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-04 10:41:21.193 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-04 10:41:21.195 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2025-10-04 10:41:21.228 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-04 10:41:21.285 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-04 10:41:21.425 [info] Eager extensions activated
+2025-10-04 10:41:21.434 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 10:41:21.436 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 10:41:21.453 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 10:41:22.842 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 10:41:23.349 [info] ExtensionService#_doActivateExtension rakib13332.material-code, startup: false, activationEvent: 'onStartupFinished'
+2025-10-04 10:41:23.462 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-10-04 10:41:26.668 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:25260)
+    at sE._fetchModels (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:2934:3968)
+    at sE.getAllChatModels (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:2934:2014)
+    at Bj.getAllChatEndpoints (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:2934:14863)
+2025-10-04 10:41:26.668 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:25260)
+    at py.getExpandedClientSideIndexingStatus (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:3321)
+    at /home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:2565
+2025-10-04 10:41:26.669 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:25260)
+    at py.getExpandedClientSideIndexingStatus (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:3321)
+    at /home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:2565
+2025-10-04 10:41:26.669 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:25260)
+    at py.getExpandedClientSideIndexingStatus (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:3321)
+    at /home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:2565
+2025-10-04 10:42:18.995 [error] Error: Failed to get copilot token
+    at y9._authShowWarnings (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:17015)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at y9.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:949:15345)
+    at YG.getCopilotToken (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:485:25260)
+    at py.getExpandedClientSideIndexingStatus (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:5892)
+    at py.getManualIndexFileCap (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:5590)
+    at py.checkIndexSizeLimits (/home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:3321)
+    at /home/lesh/.vscode/extensions/github.copilot-chat-0.31.4/dist/extension.js:1102:2565
+2025-10-04 10:42:19.164 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-04 10:42:19.180 [info] Extension host with pid 1928 exiting with code 0

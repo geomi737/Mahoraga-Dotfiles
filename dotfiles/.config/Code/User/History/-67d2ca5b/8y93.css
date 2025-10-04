@@ -1,0 +1,152 @@
+@import url("/home/lesh/.config/waybar/colors.css");
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome5Free, MesloLGSDZNerdFontMono;
+    font-size: 16px;
+}
+
+
+
+
+
+
+window#waybar {
+    background-color: transparent;
+    color: @foreground;
+    transition-property: background-color;
+    transition-duration: .5s;
+    border-radius: 64px
+}
+
+
+
+
+
+#workspaces {
+    border: 3px solid @on_secondary;
+    background-color: @secondary;
+    margin: 6px 4px; 
+    border-radius: 64px;
+
+    /* Добавляем плавную анимацию для всех изменений размера и фона */
+    transition: all 0.25s ease-in-out;
+}
+
+#workspaces button {
+    background-color: transparent;
+    color: @foreground;
+
+    /* Плавная анимация для кнопок тоже полезна */
+    transition: all 0.25s ease-in-out;
+}
+
+#workspaces button:hover {
+    background: @on_primary;
+    padding: 1px 16px;
+    border-radius: 64px;
+    box-shadow: inset 0 -3px #ffffff;
+    transition: all 0.25s ease-in-out;
+}
+
+#workspaces button.active {
+    background-color: @secondary;
+    color: @on_primary_fixed;
+    padding: 1px 16px;
+    margin: 0px 4px;
+    border-radius: 64px;
+    box-shadow: inset 0 -3px #ffffff;
+    transition: all 0.25s ease-in-out;
+}
+
+#workspaces button.urgent {
+    background: @error;
+    padding: 1px 16px;
+    border-radius: 64px;
+    box-shadow: inset 0 -3px #ffffff;
+    transition: all 0.25s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    border: 3px solid @error;
+    transition: all 0.25s ease-in-out;
+}
+
+
+
+
+
+#group-power {
+    border: 3px solid @on_primary;
+    background-color: @primary;
+    border-radius: 64px;
+    padding: 1px 12px;
+    margin: 6px 0px 6px 4px;
+    transition: all 0.25s ease-in-out;
+}
+
+#custom-quit,
+#custom-reboot,
+#custom-lock{
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+#clock,
+#network,
+#tray,
+#idle_inhibitor,
+#language,
+#custom-awg{
+    border: 3px solid @on_primary;
+    background-color: @primary;
+    margin: 6px 4px; 
+    padding: 1px 12px; 
+    border-radius: 64px;
+    transition: all 0.25s ease-in-out;
+}
+
+
+
+
+
+
+
+
+#wireplumber {
+    margin-right: 8px;
+    border: 3px solid @on_primary;
+    background-color: @primary;
+    border-radius: 64px;
+    padding: 1px 12px;
+    margin: 6px 4px 6px 0px;
+
+    /* Плавная анимация для всех изменений */
+    transition: all 0.25s ease-in-out;
+}
+
+#wireplumber.muted {
+    border: 3px solid @on_error;
+
+    /* Можно отдельно, но не обязательно, потому что transition уже есть у контейнера */
+    transition: all 0.25s ease-in-out;
+}

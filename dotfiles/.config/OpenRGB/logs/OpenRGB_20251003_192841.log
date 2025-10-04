@@ -1,0 +1,50 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20251003_192841
+====================================================================================================
+
+54    |Info:    [ResourceManager] Initializing HID interfaces: Success
+54    |Info:    ------------------------------------------------------
+54    |Info:    |               Start device detection               |
+54    |Info:    ------------------------------------------------------
+65    |Info:    ------------------------------------------------------
+65    |Info:    |             Detecting I2C interfaces               |
+65    |Info:    ------------------------------------------------------
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 10DE:2882 Subsystem: 1462:5161
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 10DE:2882 Subsystem: 1462:5161
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1849:FFFF
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1849:FFFF
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 10DE:2882 Subsystem: 1462:5161
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 10DE:2882 Subsystem: 1462:5161
+65    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 10DE:2882 Subsystem: 1462:5161
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1849:FFFF
+66    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 10DE:2882 Subsystem: 1462:5161
+66    |Info:    ------------------------------------------------------
+66    |Info:    |               Detecting I2C devices                |
+66    |Info:    ------------------------------------------------------
+7500  |Info:    [ASRock B450 Pro4 R2.0] Registering RGB controller
+7501  |Info:    ------------------------------------------------------
+7501  |Info:    |            Detecting I2C DIMM modules              |
+7501  |Info:    ------------------------------------------------------
+8313  |Info:    [ResourceManager] Detected occupied slot 1, bus 3, type DDR4
+9598  |Info:    [ResourceManager] Detected occupied slot 2, bus 3, type DDR4
+11397 |Info:    [ResourceManager] Detected occupied slot 3, bus 3, type DDR4
+13710 |Info:    [ResourceManager] Detected occupied slot 4, bus 3, type DDR4
+14338 |Info:    ------------------------------------------------------
+14338 |Info:    |               Detecting I2C PCI devices            |
+14338 |Info:    ------------------------------------------------------
+14339 |Info:    ------------------------------------------------------
+14339 |Info:    |               Detecting HID devices                |
+14339 |Info:    ------------------------------------------------------
+14339 |Info:    [KLM] Created new Tenkeyless ANSI QWERTY with 6 rows and 17 columns containing 87 keys
+14339 |Info:    [Red Square Keyrox TKL Classic] Registering RGB controller
+14339 |Info:    ------------------------------------------------------
+14339 |Info:    |            Detecting libusb HID devices            |
+14339 |Info:    ------------------------------------------------------
+14365 |Info:    ------------------------------------------------------
+14365 |Info:    |              Detecting other devices               |
+14365 |Info:    ------------------------------------------------------
+14381 |Info:    [ResourceManager] Calling Post-detection callbacks
+14381 |Info:    ------------------------------------------------------
+14381 |Info:    |                Detection completed                 |
+14381 |Info:    ------------------------------------------------------

@@ -1,0 +1,95 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, MesloLGSDZNerdFontMono;
+    font-size: 16px;
+}
+
+/* Основное окно Waybar */
+window#waybar {
+    background-color: {background};
+    border: 3px solid {color0}; 
+    color: {foreground};
+    transition-property: background-color;
+    transition-duration: .5s;
+    border-radius: 8px;
+}
+
+/* Кнопки */
+button {
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0;
+}
+
+button:hover {
+    background: inherit;
+    box-shadow: inset 0 -3px {foreground};
+}
+
+/* Рабочие пространства */
+#workspaces button {
+    background-color: transparent;
+    color: {foreground};
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused {
+    background-color: {color4};
+    box-shadow: inset 0 -3px {foreground};
+}
+
+#workspaces button.urgent {
+    border: 3px solid {color1};
+}
+
+/* Модуль звука */
+#wireplumber.muted {
+    border: 3px solid {color1};
+}
+
+/* Системный трей */
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    border: 3px solid {color1};
+}
+
+/* Общие стили для модулей */
+#workspaces,
+#clock,
+#network,
+#wireplumber,
+#tray,
+#idle_inhibitor,
+#language,
+#group-power,
+#custom-awg {
+    border: 3px solid {color0};
+    background-color: {color2};
+    margin: 6px 4px; 
+    padding: 2px 12px; 
+    border-radius: 8px;
+}
+
+#group-power,
+#custom-quit,
+#custom-reboot,
+#custom-lock {
+    margin-right: 8px;
+}
+
+#custom-quit,
+#custom-reboot,
+#custom-lock {
+    font-size: 20px;
+}
+
+#wireplumber {
+    margin-left: 8px;
+}
