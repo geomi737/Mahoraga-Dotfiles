@@ -1,1 +1,0 @@
-openrgb --device 0 --color "12 15 200"

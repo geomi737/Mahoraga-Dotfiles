@@ -1,1 +1,0 @@
-openrgb --device 0 --color {{colors.surface_container_high.default.hex_stripped}}

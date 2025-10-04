@@ -1,1 +1,0 @@
-openrgb --device "Red Square Keyrox TKL Classic" --color {{colors.inverse_primary.default.hex_stripped}}

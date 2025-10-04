@@ -1,6 +1,0 @@
-#!/bin/bash
-if pidof wofi >/dev/null; then
-    exit 0
-else
-    exec cliphist list | wofi --dmenu --allow-images --pre-display-cmd "cliphist-wofi-img %s" | cliphist decode | wl-copy
-fi

@@ -1,1 +1,0 @@
-openrgb --device 1 --color {{colors.accent.hex_stripped}}
