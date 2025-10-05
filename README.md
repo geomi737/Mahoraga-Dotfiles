@@ -5,8 +5,30 @@
 These dotfiles are created for both **personal** and **public** use.  
 They are **not subject to any license**.
 
-✨ **Why "Mahoraga"?**  
+**Why "Mahoraga"?**  
 Because the setup adapts dynamically to the wallpaper set via **Waypaper**.
+
+# ⌛Installation
+
+## Download & Install
+
+```
+git clone https://github.com/geomi737/Mahoraga-Dotfiles.git -b dev
+cd Mahoraga-Dotfiles
+./install.sh
+```
+
+Then answer the questions
+
+## After reboot
+
+- QT and GTK themes **don’t** set automatically. You need to set them **manually** the first time, then they will change themselves **automatically**. You can do this by pressing Win (MainMod) + R, typing GTK or QT5/QT6, and choosing the theme.
+
+- Firefox requires a special extension called Pywalfox. You can install it here: https://addons.mozilla.org/en-US/firefox/addon/pywalfox/
+
+- VSCode also requires an extension called Wal Theme. Install it and choose the theme — it will set automatically.
+
+- BTOP needs the theme to be set manually. Open BTOP by pressing Win (MainMod) + R, search for btop, launch it, press Escape, and choose the theme.
 
 ---
 
@@ -63,6 +85,7 @@ Because the setup adapts dynamically to the wallpaper set via **Waypaper**.
 - **Cava** → color scheme adapted
 - **Btop** → recolored, custom theme applied
 - **VSCode** → custom theme synced with Pywal16
+- **VLC** → Thanks QT
 
 **Notes:**
 
@@ -85,3 +108,7 @@ Because the setup adapts dynamically to the wallpaper set via **Waypaper**.
 
 - This is a **development branch**, expect unfinished features.
 - Feedback and suggestions are welcome!
+
+##  In future list
+
+- **Vim**
