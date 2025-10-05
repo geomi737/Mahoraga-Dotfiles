@@ -3,7 +3,7 @@
 > **DEV BRANCH – Possible bugs!**
 
 These dotfiles are created for both **personal** and **public** use.  
-They are **not subject to any license**.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details..
 
 **Why "Mahoraga"?**  
 Because the setup adapts dynamically to the wallpaper set via **Waypaper**.
