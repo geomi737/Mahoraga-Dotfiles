@@ -1,112 +1,112 @@
-@import url("/home/lesh/.config/waybar/colors.css");
+@import url("colors.css");
 
 * {
-    font-family: FontAwesome5Free, MesloLGSDZNerdFontMono;
-    font-size: 16px;
+  font-family: FontAwesome5Free, MesloLGSDZNerdFontMono;
+  font-size: 16px;
 }
 
 window#waybar {
-    background-color: transparent;
-    color: @on_secondary;
-    transition-property: background-color;
-    transition-duration: .5s;
-    border-radius: 64px;
-    box-shadow: none;
-    outline: none;
+  background-color: transparent;
+  color: @on_secondary;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 64px;
+  box-shadow: none;
+  outline: none;
 }
 
 #workspaces {
-    border: 3px solid @on_secondary;
-    background-color: @secondary;
-    margin: 2px 4px;   /* меньше сверху/снизу */
-    border-radius: 64px;
-    transition: all 0.25s ease-in-out;
+  border: 3px solid @on_secondary;
+  background-color: @secondary;
+  margin: 2px 4px; /* меньше сверху/снизу */
+  border-radius: 64px;
+  transition: all 0.25s ease-in-out;
 }
 
 #workspaces button {
-    background-color: transparent;
-    color: @foreground;
-    padding: 2px 12px;  /* меньше сверху/снизу */
-    margin: 1px 4px;    /* меньше сверху/снизу */
-    border-radius: 64px;
-    transition: all 0.25s ease-in-out;
+  background-color: transparent;
+  color: @foreground;
+  padding: 2px 12px; /* меньше сверху/снизу */
+  margin: 1px 4px; /* меньше сверху/снизу */
+  border-radius: 64px;
+  transition: all 0.25s ease-in-out;
 }
 
 #workspaces button:hover {
-    background: @on_primary;
-    padding: 2px 12px;
-    margin: 1px 4px;
-    border-radius: 64px;
-    box-shadow: inset 0 -3px #ffffff;
-    transition: all 0.25s ease-in-out;
+  background: @on_primary;
+  padding: 2px 12px;
+  margin: 1px 4px;
+  border-radius: 64px;
+  box-shadow: inset 0 -3px #ffffff;
+  transition: all 0.25s ease-in-out;
 }
 
 #workspaces button.active {
-    background-color: @primary;
-    color: @on_primary_fixed;
-    padding: 2px 12px;
-    margin: 1px 4px;
-    border-radius: 64px;
-    box-shadow: inset 0 -3px #ffffff;
-    transition: all 0.25s ease-in-out;
+  background-color: @primary;
+  color: @on_primary_fixed;
+  padding: 2px 12px;
+  margin: 1px 4px;
+  border-radius: 64px;
+  box-shadow: inset 0 -3px #ffffff;
+  transition: all 0.25s ease-in-out;
 }
 
 #workspaces button.urgent {
-    background: @error;
-    padding: 2px 12px;
-    margin: 1px 4px;
-    border-radius: 64px;
-    box-shadow: inset 0 -3px #ffffff;
-    transition: all 0.25s ease-in-out;
+  background: @error;
+  padding: 2px 12px;
+  margin: 1px 4px;
+  border-radius: 64px;
+  box-shadow: inset 0 -3px #ffffff;
+  transition: all 0.25s ease-in-out;
 }
 
 #tray > .passive {
-    -gtk-icon-effect: dim;
+  -gtk-icon-effect: dim;
 }
 
 #tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    border: 3px solid @error;
-    transition: all 0.25s ease-in-out;
+  -gtk-icon-effect: highlight;
+  border: 3px solid @error;
+  transition: all 0.25s ease-in-out;
 }
 
 #group-power {
-    border: 3px solid @on_primary;
-    background-color: @secondary;
-    border-radius: 64px;
-    padding: 2px 12px;
-    margin: 2px 0px 2px 4px;
+  border: 3px solid @on_primary;
+  background-color: @secondary;
+  border-radius: 64px;
+  padding: 2px 12px;
+  margin: 2px 0px 2px 4px;
 }
 
 #custom-quit,
 #custom-reboot,
 #custom-lock {
-    margin-right: 8px;
-    font-size: 20px;
+  margin-right: 8px;
+  font-size: 20px;
 }
 
 #clock,
 #network,
 #tray,
 #idle_inhibitor,
-#language{
-    border: 3px solid @on_primary;
-    background-color: @secondary;
-    margin: 2px 4px;
-    padding: 2px 12px;
-    border-radius: 64px;
+#language {
+  border: 3px solid @on_primary;
+  background-color: @secondary;
+  margin: 2px 4px;
+  padding: 2px 12px;
+  border-radius: 64px;
 }
 
 #wireplumber {
-    margin-right: 8px;
-    border: 3px solid @on_primary;
-    background-color: @secondary;
-    border-radius: 64px;
-    padding: 2px 12px;
-    margin: 2px 4px 2px 0px;
+  margin-right: 8px;
+  border: 3px solid @on_primary;
+  background-color: @secondary;
+  border-radius: 64px;
+  padding: 2px 12px;
+  margin: 2px 4px 2px 0px;
 }
 
 #wireplumber.muted {
-    border: 3px solid @on_error;
-    transition: all 0.25s ease-in-out;
+  border: 3px solid @on_error;
+  transition: all 0.25s ease-in-out;
 }

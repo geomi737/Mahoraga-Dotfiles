@@ -5,7 +5,6 @@
   "margin-bottom": 0,
   "margin-left": 5,
   "margin-right": 5,
-
   "modules-left": [
     "wireplumber",
     "network",
@@ -21,16 +20,18 @@
     "clock",
     "group/group-power"
   ],
-
-  "wireplumber":{
+  "wireplumber": {
     "on-click": "pavucontrol",
     "format": "{volume} {icon}",
     "format-muted": "",
-    "format-icons": ["", "", "", ""]
+    "format-icons": [
+      "",
+      "",
+      "",
+      ""
+    ]
   },
-
-  "network":{
-    "interface": "wlp11s0f3u3",
+  "network": {
     "format": "{ifname}",
     "format-wifi": "{essid} ",
     "format-ethernet": "{ipaddr}/{cidr} 󰊗",
@@ -39,29 +40,27 @@
     "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
     "tooltip-format-ethernet": "{ifname} ",
     "tooltip-format-disconnected": "Disconnected",
+    "on-click": "nm-connection-editor",
     "max-length": 50
   },
-
   "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
-        "activated": "",
-        "deactivated": ""
+      "activated": "",
+      "deactivated": ""
     }
   },
-
   "hyprland/workspaces": {
     "format": "{icon}",
     "persistent-workspaces": {
       "*": 5
     },
-    "format-icons":{
+    "format-icons": {
       "active": "",
       "persistent": "",
       "default": ""
     }
   },
-
   "clock": {
     "format": "{:%H:%M:%S} ",
     "format-alt": "{:%A, %B %d, %Y (%R)} ",
@@ -69,54 +68,41 @@
     "interval": 1,
     "locale": "ru_RU.UTF-8"
   },
-
   "tray": {
     "icon-size": 16
   },
-
-
-
   "hyprland/language": {
     "format-en": "English",
     "format-ru": "Russian"
   },
-
-
-
-
-
-
-
-
-
   "group/group-power": {
     "orientation": "inherit",
     "drawer": {
-        "transition-duration": 500,
-        "children-class": "not-power",
-        "transition-left-to-right": false
+      "transition-duration": 500,
+      "children-class": "not-power",
+      "transition-left-to-right": false
     },
     "modules": [
-        "custom/power",
-        "custom/quit",
-        "custom/lock",
-        "custom/reboot"
+      "custom/power",
+      "custom/quit",
+      "custom/lock",
+      "custom/reboot"
     ]
   },
   "custom/quit": {
-      "format": "󰗼",
-      "tooltip": false,
-      "on-click": "hyprctl dispatch exit"
+    "format": "󰗼",
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exit"
   },
   "custom/lock": {
-      "format": "󰍁",
-      "tooltip": false,
-      "on-click": "hyprlock"
+    "format": "󰍁",
+    "tooltip": false,
+    "on-click": "hyprlock"
   },
   "custom/reboot": {
-      "format": "󰜉",
-      "tooltip": false,
-      "on-click": "reboot"
+    "format": "󰜉",
+    "tooltip": false,
+    "on-click": "reboot"
   },
   "custom/power": {
     "format": "",
