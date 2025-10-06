@@ -18,7 +18,9 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
         sudo pacman -S --needed git base-devel
         git clone https://aur.archlinux.org/yay.git
         cd yay || exit
+        sudo -K
         makepkg -si
+        sudo -v
         cd .. || exit
         rm -rf yay
     else
@@ -37,7 +39,7 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
 
     echo -e "\e[32mConfiguration files have been installed successfully!\e[0m"
     # Change login shell for the target user to zsh (assumes zsh is present)
-    ZSH_PATH=$(command -v zsh)
+    ZSH_PATH="/usr/bin/zsh"
     if [ "$TARGET_USER" != "root" ]; then
         if [ "$(id -u)" -eq 0 ]; then
             sudo chsh -s "$ZSH_PATH" "$TARGET_USER" && echo "Shell changed for $TARGET_USER to $ZSH_PATH"
