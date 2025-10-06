@@ -62,12 +62,13 @@ Then answer the questions
 
 ## 💻 Terminal Commands
 
-| Command             | Description       |
-| ------------------- | ----------------- |
-| `install <package>` | Install a package |
-| `remove <package>`  | Remove a package  |
-| `cleanup`           | Clear cache       |
-| `update`            | Update packages   |
+| Command             | Description           |
+| ------------------- | --------------------- |
+| `install <package>` | Install a package     |
+| `remove <package>`  | Remove a package      |
+| `search <package>`  | Searchs for a package |
+| `cleanup`           | Clear cache           |
+| `update`            | Update packages       |
 
 ---
 

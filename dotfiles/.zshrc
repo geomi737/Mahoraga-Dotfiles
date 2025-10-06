@@ -114,11 +114,11 @@ alias pipes="pipes.sh -t 3"
 
 alias hyprconf="code ~/.config/hypr/"
 
-alias install="sudo pacman -S"
-alias remove="sudo pacman -Rns"
-alias search="sudo pacman -Ss"
-alias update="sudo pacman -Syu"
-alias cleanup="sudo pacman -Sc"
+alias install="pkexec pacman -S"
+alias remove="pkexec pacman -Rns"
+alias search="pkexec pacman -Ss"
+alias update="pkexec pacman -Syu"
+alias cleanup="pkexec pacman -Sc"
 alias cava="cava -p ~/.config/cava/themes/matugen"
 alias hyprclasses="./Документы/Скрипты/class_check.sh"
 
