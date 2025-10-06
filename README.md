@@ -22,11 +22,11 @@ Then answer the questions
 
 ## **⚠️After reboot⚠️**
 
-- QT and GTK themes **don’t** set automatically. You need to set them **manually** the first time, then they will change themselves **automatically**. You can do this by pressing Win (MainMod) + R, typing GTK or QT5/QT6, and choosing the theme.
+- QT and GTK themes **don’t** set automatically. You need to set them **manually** the first time, then they will change themselves **automatically**. You can do this by pressing Win (MainMod) + R, typing GTK or QT5/QT6, and choosing the theme.**In GTK choose theme ``adw-gtk3-dark``, qt5-6 is just `matugen`**
 
 - Firefox requires a special extension called Pywalfox. You can install it here: https://addons.mozilla.org/en-US/firefox/addon/pywalfox/
 
-- VSCode also requires an extension called Wal Theme. Install it and choose the theme — it will set automatically.
+- VSCode also requires an extension called **Wal Theme**. Install it and choose the theme — it will set automatically.
 
 - BTOP needs the theme to be set manually. Open BTOP by pressing Win (MainMod) + R, search for btop, launch it, press Escape, and choose the theme. **Also you SHOULD delete `"Terminal=true` line in `/usr/share/applications/btop.desktop` and put `Exec=kitty -e btop` .It should look like that:**
   ```
