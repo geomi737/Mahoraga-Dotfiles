@@ -1,4 +1,4 @@
-# ahoraga Dotfiles
+#  🐍Mahoraga Dotfiles
 
 These dotfiles are created for both **personal** and **public** use.  
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details..
