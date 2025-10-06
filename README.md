@@ -1,4 +1,4 @@
-#  🐍Mahoraga Dotfiles
+# 🐍Mahoraga Dotfiles
 
 These dotfiles are created for both **personal** and **public** use.  
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details..
@@ -20,7 +20,7 @@ Then answer the questions
 
 ## **⚠️After reboot⚠️**
 
-- QT and GTK themes **don’t** set automatically. You need to set them **manually** the first time, then they will change themselves **automatically**. You can do this by pressing Win (MainMod) + R, typing GTK or QT5/QT6, and choosing the theme.**In GTK choose theme ``adw-gtk3-dark``, qt5-6 is just `matugen`**
+- QT and GTK themes **don’t** set automatically. You need to set them **manually** the first time, then they will change themselves **automatically**. You can do this by pressing Win (MainMod) + R, typing GTK or QT5/QT6, and choosing the theme.**In GTK choose theme `adw-gtk3-dark`, qt5-6 is just `matugen`**
 
 - Firefox requires a special extension called Pywalfox. You can install it here: https://addons.mozilla.org/en-US/firefox/addon/pywalfox/
 
@@ -115,11 +115,6 @@ Then answer the questions
 ![preview](/Preview/3.png)
 
 ---
-
-## 📌 Notes
-
-- This is a **development branch**, expect unfinished features.
-- Feedback and suggestions are welcome!
 
 ##  In future list
 
