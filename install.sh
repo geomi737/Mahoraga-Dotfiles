@@ -29,7 +29,7 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
 
     # Install packages from pacman_packages.txt
     echo "Installing packages from pacman_packages.txt..."
-    yay -S --needed - < "${USER_HOME}/Mahoraga-Dotfiles/pacman_packages.txt"
+    yay -S --noconfirm --needed - < "${USER_HOME}/Mahoraga-Dotfiles/pacman_packages.txt"
 
     # Copy config files
     echo "Copying configuration files..."
@@ -45,6 +45,27 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
             sudo chsh -s "$ZSH_PATH" "$TARGET_USER" && echo "Shell changed for $TARGET_USER to $ZSH_PATH"
         else
             chsh -s "$ZSH_PATH" "$TARGET_USER" && echo "Shell changed for $TARGET_USER to $ZSH_PATH"
+        fi
+        
+        # Check and install Oh My Zsh if not present
+        if [ ! -d "${USER_HOME}/.oh-my-zsh" ]; then
+            echo "Installing Oh My Zsh..."
+            if [ "$(id -u)" -eq 0 ]; then
+                sudo -u "$TARGET_USER" sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+            else
+                sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+            fi
+        else
+            echo "Oh My Zsh is already installed"
+        fi
+
+        echo "Installing Zsh plugins..."
+        if [ "$(id -u)" -eq 0 ]; then
+            sudo -u "$TARGET_USER" git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "${USER_HOME}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
+            sudo -u "$TARGET_USER" git clone https://github.com/zsh-users/zsh-autosuggestions "${USER_HOME}/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
+        else
+            git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "${USER_HOME}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
+            git clone https://github.com/zsh-users/zsh-autosuggestions "${USER_HOME}/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
         fi
     else
         echo "Skipping shell change for root user"

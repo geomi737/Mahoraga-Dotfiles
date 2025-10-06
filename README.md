@@ -20,7 +20,7 @@ cd Mahoraga-Dotfiles
 
 Then answer the questions
 
-## After reboot
+## **⚠️After reboot⚠️**
 
 - QT and GTK themes **don’t** set automatically. You need to set them **manually** the first time, then they will change themselves **automatically**. You can do this by pressing Win (MainMod) + R, typing GTK or QT5/QT6, and choosing the theme.
 
@@ -28,7 +28,21 @@ Then answer the questions
 
 - VSCode also requires an extension called Wal Theme. Install it and choose the theme — it will set automatically.
 
-- BTOP needs the theme to be set manually. Open BTOP by pressing Win (MainMod) + R, search for btop, launch it, press Escape, and choose the theme.
+- BTOP needs the theme to be set manually. Open BTOP by pressing Win (MainMod) + R, search for btop, launch it, press Escape, and choose the theme. **Also you SHOULD delete `"Terminal=true` line in `/usr/share/applications/btop.desktop` and put `Exec=kitty -e btop` .It should look like that:**
+  ```
+  [Desktop Entry]
+    Type=Application
+    Version=1.0
+    Name=btop++
+    GenericName=System Monitor
+    GenericName[it]=Monitor di sistema
+    Comment=Resource monitor that shows usage and stats for processor, memory, disks, network and processes
+    Comment[it]=Monitoraggio delle risorse: mostra utilizzo e statistiche per CPU, dischi, rete e processi
+    Icon=btop
+    Exec=kitty -e btop
+    Categories=System;Monitor;ConsoleOnly;
+    Keywords=system;process;task
+  ```
 
 ---
 
