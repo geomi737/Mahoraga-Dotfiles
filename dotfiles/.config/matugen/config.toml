@@ -6,7 +6,7 @@ set = false
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/hyprland-colors.conf'
 output_path = '~/.config/hypr/colors.conf'
-post_hook = 'hyprctl reload && systemctl --user restart hyprpolkitagent'
+post_hook = 'hyprctl reload; systemctl --user restart hyprpolkitagent'
 
 [templates.kitty]
 input_path = '~/.config/matugen/templates/kitty-colors.conf'
